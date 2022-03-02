@@ -1,8 +1,16 @@
-- 👋 Hi, I’m @Ziang-Chen Graduated at King's College London 
-- 👀 I’m interested in Robotics, AI & Complex System
-- 💞️ I’m looking to collaborate on building AI system
+Hi, I'm Ziang Chen, come from King's College London ,UK. 
 
-<!---
-Ziang-Chen/Ziang-Chen is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+My Research interested in Differential Equation, Machine Learning and Field Theory. 
+
+For Research Paper can also reference on my ResearchGate 
+
+https://www.researchgate.net/profile/Ziang-Chen-6
+
+I Devoloped Flowing Project:
+
+* Trajectory Forecasting in Self-Driving
+* ODE for Propogration Modelling
+* Robotics Dynamics Toolbox
+
+The Paper & Code are in publishing slowly cause too many issues
+
