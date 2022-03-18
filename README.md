@@ -6,24 +6,24 @@ For Research Paper can also reference on my ResearchGate
 
 https://www.researchgate.net/profile/Ziang-Chen-6
 
-I Devoloped Flowing Project:
 
-* Trajectory Forecasting in Self-Driving
-* ODE for Propogration Modelling
-* Robotics Dynamics Toolbox
-* Differential Geometry Toolbox
+### The Mean Field method For Ordinary Differential Equation
+
+* Study of Opioid Crisis with SI Model Based on Data https://dl.acm.org/doi/10.1145/3349341.3349434
+* Others accepted and in process
+
+### Machine Learning 
+
+* DualVDT: Dual reparametrized Variational Generative Model for Time-Series Forecasting  https://arxiv.org/abs/2203.05766
 
 
+### Project:
 
-The Paper & Code are in publishing slowly cause too many issues
+* Trajectory Forecasting in Self-Driving   https://github.com/Ziang-Chen/TrajectoryForecasting
+* ODE for Propogration Modelling  
+* Robotics Dynamics Toolbox  https://github.com/Ziang-Chen/Robotics
+* Differential Geometry Toolbox  
+* Gesture Controlled 3D Printed Robot
+* Machine Learning Algorithm Template https://github.com/Ziang-Chen/TrajectoryForecasting
 
-There also a plan to devolope deep learning framework, based on my current projects, unify the interface with my own style, hope its come true early.
-
-Below are some screenshot
-
-## Tensor Calculation
-![](https://github.com/ZiangChenKCL/Robotics/blob/main/Pics/tensor_transform.png)
-
-## Trajectory Forecasting
-![a](https://i.imgur.com/vsgpmbu.gif)
 
