@@ -6,16 +6,31 @@ For Research Paper can also reference on my ResearchGate
 
 https://www.researchgate.net/profile/Ziang-Chen-6
 
+---
+
+Update 9/12 2022
+
+The latest Research paper finished process
+
+https://sciendo.com/it/article/10.2478/amns.2021.2.00178
+
+which using ordinary differential equation modeling Antibiotic resistance transimission
+
+
+---
 
 ### The Mean Field method For Ordinary Differential Equation
 
 * Study of Opioid Crisis with SI Model Based on Data https://dl.acm.org/doi/10.1145/3349341.3349434
 * Others accepted and in process
 
+---
+
 ### Machine Learning 
 
 * DualVDT: Dual reparametrized Variational Generative Model for Time-Series Forecasting  https://arxiv.org/abs/2203.05766
 
+---
 
 ### Project:
 
