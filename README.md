@@ -1,8 +1,8 @@
-Hi, I'm Ziang Chen, come from King's College London ,UK. 
+Hi, I'm Ziang Chen, graduate from King's College London ,UK. 
 
-My Research interested in Differential Equation, Machine Learning and Field Theory. 
+My Research interest in Complex system (Mean field Approach), Machine Learning. 
 
-For Research Paper can also reference on my ResearchGate 
+Papers listed under my ResearchGate
 
 https://www.researchgate.net/profile/Ziang-Chen-6
 
@@ -34,11 +34,13 @@ which using ordinary differential equation modeling Antibiotic resistance transi
 
 ### Project:
 
+* Python native lisp embedding https://github.com/Ziang-Chen/Lisp
+* Cloud tools for uploading/downloading batch processing, etc. https://github.com/Ziang-Chen/cloudTool
 * Trajectory Forecasting in Self-Driving   https://github.com/Ziang-Chen/TrajectoryForecasting
-* ODE for Propogration Modelling  
+* ODE for Propogration Modelling  (Removed)
 * Robotics Dynamics Toolbox  https://github.com/Ziang-Chen/Robotics
-* Differential Geometry Toolbox  
-* Gesture Controlled 3D Printed Robot
+* Differential Geometry Toolbox   (Removed)
+* Gesture Controlled 3D Printed Robot (Code Removed)
 * Machine Learning Algorithm Template https://github.com/Ziang-Chen/TrajectoryForecasting
 
 
