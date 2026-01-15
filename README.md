@@ -11,7 +11,7 @@ https://www.researchgate.net/profile/Ziang-Chen-6
 ---
 Update 1/15 2026
 
-From 2022-2025 I was working on my doctorate project which related on High-Performance
+From 2022-2025 I was working on my doctorate project which related on High-Performance Computing
 
 * I have done some formal verification research on large-scale distributation systems, also develops some tools for solving/detect problems
   * e.g., deadlock/ livelock, planning to pulish step by step.
