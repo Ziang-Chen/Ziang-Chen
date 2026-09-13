@@ -1,9 +1,26 @@
 # Ziang Chen
 
-I work on high-performance computing, GPU systems, and formal verification,
-with an interest in machine learning workloads. Much of my work concerns how
-concurrent systems execute: their state transitions, dependencies, scheduling,
-and failure modes.
+I work on large language model infrastructure (AI Infra), high-performance
+computing, and formal verification. My technical focus spans GPU operators and
+kernels, inference frameworks, and GPU cluster systems.
+
+## LLMs and AI infrastructure
+
+I work across the execution stack, from the operators used by a model to GPU
+kernels, inference frameworks, and the systems that run them.
+
+- **GPU operators and kernels:** CUDA programming and warp-level execution,
+  with a focus on high-performance computation for machine learning workloads.
+- **Inference frameworks:** how model operators are executed through the
+  inference framework and its underlying GPU runtime.
+- **GPU systems:** cluster architecture spanning kernels, runtimes, and services.
+- **Formal verification:** modeling concurrent execution, causal dependencies,
+  and progress properties, including deadlock and livelock analysis.
+
+Performance and correctness meet at the execution model: which operations can
+run together, how they depend on each other, and whether the system keeps
+making progress. This is also the connection between my AI infrastructure work
+and DTESSL.
 
 ## Research
 
