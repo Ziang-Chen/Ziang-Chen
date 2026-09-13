@@ -1,8 +1,10 @@
 # Ziang Chen
 
-I work on large language model infrastructure (AI Infra), high-performance
-computing, and formal verification. My technical focus spans GPU operators and
-kernels, inference frameworks, and GPU cluster systems.
+I have ten years of experience in deep learning. My research spans deep learning,
+large language models, autonomous driving, and robotics. I also work on AI
+infrastructure, high-performance computing, and formal verification, with
+technical experience in GPU operators and kernels, inference frameworks, and
+GPU cluster systems.
 
 ## LLMs and AI infrastructure
 
@@ -17,6 +19,18 @@ kernels, inference frameworks, and the systems that run them.
 - **GPU systems:** cluster architecture spanning kernels, runtimes, and services.
 
 ## Research
+
+My research directions include deep learning and large language models, with
+experience in autonomous driving and robotics. Alongside this work, I study
+the computing infrastructure that supports AI workloads and methods for
+modeling and verifying concurrent systems.
+
+- **Deep learning and LLMs:** model research and efficient inference.
+- **Autonomous driving and robotics:** deep learning research in autonomous systems.
+- **AI infrastructure and HPC:** GPU computation, operators, inference frameworks,
+  and cluster systems.
+- **Formal verification:** concurrency, causal dependencies, and progress
+  properties, including deadlock and livelock analysis.
 
 From 2022 to 2025, my research at Eindhoven University of Technology focused on
 high-performance computing. It covered GPU programming with CUDA warp-level
