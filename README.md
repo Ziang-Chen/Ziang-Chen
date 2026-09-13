@@ -1,22 +1,52 @@
-Hi, I'm Ziang Chen, graduate from King's College London (Master Degree) ,UK & TU eindhoven (Doctorate Degress), The Netherlands
+# Ziang Chen
 
-My Current working fields in High-Performance Computation and  Machine Learning. 
+I work on high-performance computing, GPU systems, and formal verification,
+with an interest in machine learning workloads. Much of my work concerns how
+concurrent systems execute: their state transitions, dependencies, scheduling,
+and failure modes.
 
-Past was interest in Complex system (which using Mean field Approach, aka differential equation, focous on the Numerical-stability),
+## Research
 
----
-Update 1/15 2026
+From 2022 to 2025, my research at Eindhoven University of Technology focused on
+high-performance computing. It covered GPU programming with CUDA warp-level
+features, GPU cluster architecture from kernels to services, and formal
+verification of large-scale distributed systems, including deadlock and livelock
+analysis.
 
-From 2022-2025 I was working on my doctorate project which related on High-Performance Computing
+My earlier work explored complex systems through mean-field models and
+differential equations, with a focus on numerical stability.
 
-* I have done some formal verification research on large-scale distributation systems, also develops some tools for solving/detect problems
-  * e.g., deadlock/ livelock, planning to pulish step by step.
-* For GPU cluster, I was designed a full-stack system from kernel till services layer, the architecture is still confidential, but I may update some design cases for further disscusions
-* On the bottom level of my doctorate project, GPU programming, utilized lots of CUDA-warp level features, combining lots of tricks developed by the machine learning community, may pulish some tools for verfication partions, kernal simluations, etc.
----
+## DTESSL: modeling concurrent execution
 
-### Project Still Open to Public:
+[DTESSL](https://github.com/Ziang-Chen/DTESSL) connects my work on GPU systems
+and formal verification. It is a discrete-time event system modeling language
+for describing typed state, concurrent transitions, causal dependencies, and
+temporal properties.
 
-* Python native lisp embedding (My favourite during undergraduate) https://github.com/Ziang-Chen/Lisp
-* HTML Based OS: https://github.com/Ziang-Chen/browse  Aim for further Agentic Based development, which running in fully contrallable, simple, predicatable enviroment
+For GPU and distributed systems, the questions behind it are concrete: which
+operations may happen together, what each operation depends on, whether a
+schedule can stop making progress, and how a problematic execution can be
+reproduced. DTESSL provides an explicit model in which to investigate those
+questions.
 
+- Concurrent inputs read one state snapshot and commit as an atomic round.
+- Causal history records dependencies between transition occurrences.
+- Temporal claims are checked over execution states and property monitors.
+- Captured typed inputs can be replayed to reconstruct logical execution.
+
+The current implementation is a standalone C++20 library and CLI with a built-in
+model checker. GPU execution is a research context for the project; this release
+uses a C++ reference interpreter. Results apply to the supplied model, with its
+assumptions and coverage. External effects are represented as action plans and
+executed by the host system.
+
+[English documentation](https://github.com/Ziang-Chen/DTESSL/blob/main/README.en.md)
+· [中文文档](https://github.com/Ziang-Chen/DTESSL/blob/main/README.md)
+· [Design and research references](https://github.com/Ziang-Chen/DTESSL/blob/main/docs/REFERENCES.md)
+
+## Other projects
+
+- [Lisp](https://github.com/Ziang-Chen/Lisp) — a Lisp embedded in Python, started
+  during my undergraduate studies.
+- [browser](https://github.com/Ziang-Chen/browser) — a browser-based environment
+  exploring a controllable workspace for agent-assisted development.
