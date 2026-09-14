@@ -1,66 +1,73 @@
 # Ziang Chen
 
-I have ten years of experience in deep learning. My research spans deep learning,
-large language models, autonomous driving, and robotics. I also work on AI
-infrastructure, high-performance computing, and formal verification, with
-technical experience in GPU operators and kernels, inference frameworks, and
-GPU cluster systems.
+I have ten years of experience in deep learning, with research spanning
+generative models, large language models, autonomous driving, and robotics.
+My work extends across the AI software stack, from algorithms to
+high-performance computing infrastructure. I also study formal methods
+for concurrent and distributed systems.
 
 ## LLMs and AI infrastructure
 
-I work across the execution stack, from the operators used by a model to GPU
-kernels, inference frameworks, and the systems that run them.
+I work from model algorithms down to the systems that execute them.
 
-- **GPU operators and kernels:** CUDA programming and warp-level execution,
-  with a focus on high-performance computation for machine learning workloads.
-- **Inference frameworks:** SGLang and vLLM, including their execution paths
-  and interaction with GPU kernels.
-- **Inference memory:** KV cache management and its role in LLM inference.
-- **GPU systems:** cluster architecture spanning kernels, runtimes, and services.
+- **Algorithms and models:** deep learning, generative modeling, and LLMs.
+- **Inference frameworks:** SGLang and vLLM, including execution paths,
+  KV cache management, memory behavior, and parallel execution.
+- **GPU operators and kernels:** CUDA programming, warp-level execution,
+  and performance optimization for machine learning workloads.
+- **Compilers and runtimes:** kernel DSLs, intermediate representations,
+  virtual machines, and task scheduling.
+- **GPU infrastructure:** cluster architecture, resource management,
+  and the interaction between computation, communication, and storage.
 
 ## Research
 
-My research directions include deep learning and large language models, with
-experience in autonomous driving and robotics. Alongside this work, I study
-the computing infrastructure that supports AI workloads and methods for
-modeling and verifying concurrent systems.
+My research spans deep learning, AI systems, and formal verification,
+with earlier work in autonomous driving and robotics.
 
-- **Deep learning and LLMs:** model research and efficient inference.
-- **Autonomous driving and robotics:** deep learning research in autonomous systems.
-- **AI infrastructure and HPC:** GPU computation, operators, inference frameworks,
-  and cluster systems.
-- **Formal verification:** concurrency, causal dependencies, and progress
-  properties, including deadlock and livelock analysis.
+From 2022 to 2025, my research at Eindhoven University of Technology
+focused on high-performance computing: CUDA warp-level programming,
+GPU cluster architecture, and formal verification of distributed systems,
+including deadlock and livelock analysis.
 
-From 2022 to 2025, my research at Eindhoven University of Technology focused on
-high-performance computing. It covered GPU programming with CUDA warp-level
-features, GPU cluster architecture from kernels to services, and formal
-verification of large-scale distributed systems, including deadlock and livelock
-analysis.
+My earlier work explored complex systems through mean-field models
+and differential equations, with a focus on numerical stability.
 
-My earlier work explored complex systems through mean-field models and
-differential equations, with a focus on numerical stability.
+## Formal methods
 
-## DTESSL: modeling concurrent execution
+[DTESSL](https://github.com/Ziang-Chen/DTESSL) is a discrete-time event
+system modeling language I develop for describing concurrent behavior
+and checking temporal properties.
 
-[DTESSL](https://github.com/Ziang-Chen/DTESSL) is a separate research direction
-in formal modeling and verification. It is a discrete-time event system modeling language
-for describing typed state, concurrent transitions, causal dependencies, and
-temporal properties.
+It combines typed states, atomic concurrent transitions, explicit causal
+dependencies, and deterministic replay. The current implementation is
+a standalone C++20 library and CLI with a built-in model checker.
 
-- Concurrent inputs read one state snapshot and commit as an atomic round.
-- Causal history records dependencies between transition occurrences.
-- Temporal claims are checked over execution states and property monitors.
-- Captured typed inputs can be replayed to reconstruct logical execution.
-
-The current implementation is a standalone C++20 library and CLI with a built-in
-model checker. Its Embedding representation provides a basis for exploring
-GPU-accelerated verification; the current release uses a C++ reference interpreter.
-External effects are represented as action plans and executed by the host system.
+I am also exploring GPU-accelerated verification through its Embedding
+representation. The current implementation uses a C++ reference interpreter;
+external effects are expressed as action plans and executed by the host.
 
 [English documentation](https://github.com/Ziang-Chen/DTESSL/blob/main/README.en.md)
 · [中文文档](https://github.com/Ziang-Chen/DTESSL/blob/main/README.md)
 · [Design and research references](https://github.com/Ziang-Chen/DTESSL/blob/main/docs/REFERENCES.md)
+
+![dtesslposter](https://github.com/Ziang-Chen/DTESSL/blob/main/docs/images/dtessl-overview-en.png)
+
+## Game Dev
+
+I am also building my own 3D engine, with a custom asset description language,
+scene editing, physics simulation, and integration with backend rendering
+pipelines such as Blender. Tentatively named **chenEngine**, it will be
+made public gradually.
+
+Here is a look at the photorealistic visuals I am working toward with chenEngine:
+[night fury](https://ziang-chen.github.io/nightfury-racing/?lang=en)
+
+![nightfurypreview](https://github.com/Ziang-Chen/nightfury-racing/raw/main/dist/screenshots/city.jpg?v=30)
+
+![chenEngine demo](https://raw.githubusercontent.com/Ziang-Chen/nightfury-racing/main/docs/media/chenengine-showcase-readme.gif)
+
+
 
 ## Other projects
 
