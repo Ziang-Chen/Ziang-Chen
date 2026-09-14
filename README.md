@@ -65,7 +65,7 @@ Here is a look at the photorealistic visuals I am working toward with chenEngine
 
 ![nightfurypreview](https://github.com/Ziang-Chen/nightfury-racing/raw/main/dist/screenshots/city.jpg?v=30)
 
-![chenEngine demo](https://raw.githubusercontent.com/Ziang-Chen/nightfury-racing/main/docs/media/chenengine-showcase-readme.gif)
+![chenEngine demo](https://github.com/Ziang-Chen/nightfury-racing/blob/main/docs/media/chenengine-showcase-readme.gif)
 
 
 
