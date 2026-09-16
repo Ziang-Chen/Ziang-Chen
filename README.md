@@ -75,3 +75,4 @@ Here is a look at the photorealistic visuals I am working toward with chenEngine
   during my undergraduate studies.
 - [browser](https://github.com/Ziang-Chen/browser) — a browser-based environment
   exploring a controllable workspace for agent-assisted development.
+- VM, Runtime, etc. I also work in building my own virtual machine with highly customized ISA, have to admit is a most difficult one. But it has potential to be a common foundation of the whole stack: from agent runtime to some basic instruction execuntion. Now the fileSystem is done, virtual net card almost..... May be I will cast some scheduling method to LLM inference in future as a part of gardually open Source plan.
