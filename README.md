@@ -1,6 +1,6 @@
 # Ziang Chen
 
-I have ten years of experience in deep learning, with research spanning
+Hi there, I'm Ziang. For Work and Research, I have ten years of experience in deep learning, with research spanning
 generative models, large language models, autonomous driving, and robotics.
 My work extends across the AI software stack, from algorithms to
 high-performance computing infrastructure. I also study formal methods
@@ -55,7 +55,7 @@ external effects are expressed as action plans and executed by the host.
 
 ## Game Dev
 
-I am also building my own 3D engine, with a custom asset description language,
+At the end of this long Bios, for fun, I am also building my own 3D engine, with a custom asset description language,
 scene editing, physics simulation, and integration with backend rendering
 pipelines such as Blender. Tentatively named **chenEngine**, it will be
 made public gradually.
