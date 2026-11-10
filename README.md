@@ -4,7 +4,10 @@ Hi there, I'm Ziang. For Work and Research, I have ten years of experience in de
 generative models, large language models, autonomous driving, and robotics.
 My work extends across the AI software stack, from algorithms to
 high-performance computing infrastructure. I also study formal methods
-for concurrent and distributed systems.
+for concurrent and distributed systems. 
+
+ Below are lot of worlds, feel free to view a summary on 
+ [my brand new Console Style Profile](https://ziang-chen.github.io/)
 
 ## LLMs and AI infrastructure
 
